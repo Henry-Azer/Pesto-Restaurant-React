@@ -14,6 +14,56 @@
 
 /* MENU START */
 
+.menu-route .menu-title {
+  display: block;
+  height: 600px;
+  background-color: #f5f5f5;
+  
+ 
+}
+.pizza-image{
+    width: 600px;
+    height: 300px;
+    margin-top: 46px;
+    clip-path: polygon(0 0,0 100%,100% 100%);
+}
+
+.menu-route {
+  background-color: #434343;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: corbel;
+  
+}
+.menu-route .heading {
+  text-align: center;
+  font-size: 50px;
+  color: #434343;
+  font-weight: bold;
+  margin-top: 40%;
+  font-family: Bell MT;
+  margin-bottom: 1%;
+}
+.menu-route .p {
+  text-align: center;
+  color: #C5D201;
+  font-size: 20px;
+  margin-bottom: 10.5%;
+  margin-top: 1%;
+}
+.pizza{
+    display: grid;
+    grid-template-columns: 200px 200px ;
+    
+}
+.pasta{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+.menu{
+    color: #f5f5f5;
+}
 /* MENU END */
 
 /* -------------------------- */
@@ -54,7 +104,6 @@
 
 /* Medium devices (desktops, 992px and down) */
 @media (max-width: 910px) {
-
 }
 
 /* Medium devices (desktops, 992px and up) */
