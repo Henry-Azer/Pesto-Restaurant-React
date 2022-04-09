@@ -34,17 +34,13 @@ const PestoMenu = () => {
                                 src={margherita_pizza}
                                 alt=""
                             />
-                            <div>
-                                <h3 className="menu-item-name">
-                                    Pizza Margherita
-                                </h3>
-                                <p className="pizza-discreption">
-                                    The classic Napolitan-style pizza with fresh
-                                    tomato sauce,buffalo mozzarella and a hint
-                                    of basil.
-                                </p>
-                                <p className="price">50 EGP</p>
-                            </div>
+                            <h3 className="menu-item-name">Pizza Margherita</h3>
+                            <p className="pizza-discreption">
+                                The classic Napolitan-style pizza with fresh
+                                tomato sauce,buffalo mozzarella and a hint of
+                                basil.
+                            </p>
+                            <p className="price">50 EGP</p>
                         </div>
 
                         <div className="pizza-menu-item">
@@ -53,18 +49,13 @@ const PestoMenu = () => {
                                 src={marinara_pizza}
                                 alt=""
                             />
-                            <div>
-                                <h3 className="menu-item-name">
-                                    Pizza Marinara
-                                </h3>
-                                <p className="pizza-discreption">
-                                    A vegan opption of Napolitan-style pizza
-                                    topped with sun-dried tomato sauce with
-                                    garlic,fresh oregano and extra-virgin olive
-                                    oil.
-                                </p>
-                                <p className="price">40 EGP</p>
-                            </div>
+                            <h3 className="menu-item-name">Pizza Marinara</h3>
+                            <p className="pizza-discreption">
+                                A vegan opption of Napolitan-style pizza topped
+                                with sun-dried tomato sauce with garlic,fresh
+                                oregano and extra-virgin olive oil.
+                            </p>
+                            <p className="price">40 EGP</p>
                         </div>
                         <div className="pizza-menu-item">
                             <img
@@ -72,18 +63,14 @@ const PestoMenu = () => {
                                 src={diavola_pizza}
                                 alt=""
                             />
-                            <div>
-                                <h3 className="menu-item-name">
-                                    Pizza Diavola
-                                </h3>
-                                <p className="pizza-discreption">
-                                    Napolitan-style pizza with fresh tomato
-                                    sauce,spicy peperoncino,Salami(Italian cured
-                                    sausage),mozzarella,fresh basil and
-                                    parmigiano-reggiano.
-                                </p>
-                                <p className="price">65 EGP</p>
-                            </div>
+                            <h3 className="menu-item-name">Pizza Diavola</h3>
+                            <p className="pizza-discreption">
+                                Napolitan-style pizza with fresh tomato
+                                sauce,spicy peperoncino,Salami(Italian cured
+                                sausage),mozzarella,fresh basil and
+                                parmigiano-reggiano.
+                            </p>
+                            <p className="price">65 EGP</p>
                         </div>
                         <div className="pizza-menu-item">
                             <img
@@ -91,18 +78,16 @@ const PestoMenu = () => {
                                 src={quattro_fromaggi_pizza}
                                 alt=""
                             />
-                            <div>
-                                <h3 className="menu-item-name">
-                                    Pizza Quattro-formaggi
-                                </h3>
-                                <p className="pizza-discreption">
-                                    Napolitan-style pizza with fresh tomato
-                                    sauce,topped with a mix of four kinds of
-                                    cheese(mozzarella,fontina,gorgonzola and
-                                    parmigiano-reggiano).
-                                </p>
-                                <p className="price">85 EGP</p>
-                            </div>
+                            <h3 className="menu-item-name">
+                                Pizza Quattro-formaggi
+                            </h3>
+                            <p className="pizza-discreption">
+                                Napolitan-style pizza with fresh tomato
+                                sauce,topped with a mix of four kinds of
+                                cheese(mozzarella,fontina,gorgonzola and
+                                parmigiano-reggiano).
+                            </p>
+                            <p className="price">85 EGP</p>
                         </div>
                     </div>
                     <img
@@ -114,16 +99,12 @@ const PestoMenu = () => {
                     <div className="pasta">
                         <div className="pasta-menu-item">
                             <img className="carbonara" src={carbonara} alt="" />
-                            <div>
-                                <h3 className="menu-item-name">
-                                    Pasta Carbonara
-                                </h3>
-                                <p className="pasta-discreption">
-                                    Linguine pasta with carbonara sauce and
-                                    chuncks of crispy beef bacon.
-                                </p>
-                                <p className="price">55 EGP</p>
-                            </div>
+                            <h3 className="menu-item-name">Pasta Carbonara</h3>
+                            <p className="pasta-discreption">
+                                Linguine pasta with carbonara sauce and chuncks
+                                of crispy beef bacon.
+                            </p>
+                            <p className="price">55 EGP</p>
                         </div>
                         <div className="pasta-menu-item">
                             <img
@@ -131,18 +112,15 @@ const PestoMenu = () => {
                                 src={fettuccine_alfredo_pasta}
                                 alt=""
                             />
-                            <div>
-                                <h3 className="menu-item-name">
-                                    Fettuccine Alfredo
-                                </h3>
-                                <p className="pasta-discreption">
-                                    Fettuccine pasta with Alfredo sauce(heavy
-                                    cream and much of parmigiano-reggiano and
-                                    pecorino cheese),served with grilled chicken
-                                    breast.
-                                </p>
-                                <p className="price">60 EGP</p>
-                            </div>
+                            <h3 className="menu-item-name">
+                                Fettuccine Alfredo
+                            </h3>
+                            <p className="pasta-discreption">
+                                Fettuccine pasta with Alfredo sauce(heavy cream
+                                and much of parmigiano-reggiano and pecorino
+                                cheese),served with grilled chicken breast.
+                            </p>
+                            <p className="price">60 EGP</p>
                         </div>
                         <div className="pasta-menu-item">
                             <img
@@ -150,16 +128,14 @@ const PestoMenu = () => {
                                 src={spaghetti_bolognese}
                                 alt=""
                             />
-                            <div>
-                                <h3 className="menu-item-name">
-                                    Spaghetti Bolognese
-                                </h3>
-                                <p className="pasta-discreption">
-                                    Spaghetti with Bolognese sauce(mix of ground
-                                    beef and lamp meat,tomato sauce and cream).
-                                </p>
-                                <p className="price">50 EGP</p>
-                            </div>
+                            <h3 className="menu-item-name">
+                                Spaghetti Bolognese
+                            </h3>
+                            <p className="pasta-discreption">
+                                Spaghetti with Bolognese sauce(mix of ground
+                                beef and lamp meat,tomato sauce and cream).
+                            </p>
+                            <p className="price">50 EGP</p>
                         </div>
                         <div className="pasta-menu-item">
                             <img
@@ -167,16 +143,12 @@ const PestoMenu = () => {
                                 src={arrabbiata}
                                 alt=""
                             />
-                            <div>
-                                <h3 className="menu-item-name">
-                                    Penne Arrabbiata
-                                </h3>
-                                <p className="pasta-discreption">
-                                    Penne pasta with spicy sauce of sun-dried
-                                    tomato,garlic and peperoncino.
-                                </p>
-                                <p className="price">35 EGP</p>
-                            </div>
+                            <h3 className="menu-item-name">Penne Arrabbiata</h3>
+                            <p className="pasta-discreption">
+                                Penne pasta with spicy sauce of sun-dried
+                                tomato,garlic and peperoncino.
+                            </p>
+                            <p className="price">35 EGP</p>
                         </div>
                     </div>
                 </div>
